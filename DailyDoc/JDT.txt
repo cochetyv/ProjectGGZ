@@ -5,3 +5,8 @@ Groupe feu de camps JDT :
 -Création du MCD sur papier (Cochet, Naït, Baltensperger, Da Silva)
 -Création du MCD sur AnalyseSI (Baltensperger, Da Silva)
 -Réalisation de la documentation (Cochet, Naït)
+
+29.04.2016 :
+
+-Essais d'utilisation de GitKraken et GitHub (Cochet, Baltensperger, Da Silva)
+-Création du MLD (Naït)
