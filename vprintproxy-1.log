@@ -1,0 +1,22 @@
+2015-08-19T09:27:46.532+02:00| vthread-4| I120: Log for VMware Workstation pid=3108 version=11.1.0 build=build-2496824 option=Release
+2015-08-19T09:27:46.532+02:00| vthread-4| I120: The process is 32-bit.
+2015-08-19T09:27:46.532+02:00| vthread-4| I120: Host codepage=windows-1252 encoding=windows-1252
+2015-08-19T09:27:46.532+02:00| vthread-4| I120: Host is Windows 7 Professional, 64-bit Service Pack 1 (Build 7601)
+2015-08-19T09:27:46.524+02:00| vthread-4| I120: DictionaryLoad: Cannot open file "C:\Users\zfppcx\AppData\Roaming\VMware\config.ini": Unknown error 2 (0x2).
+2015-08-19T09:27:46.524+02:00| vthread-4| I120: Msg_Reset:
+2015-08-19T09:27:46.524+02:00| vthread-4| I120: [msg.dictionary.load.openFailed] Cannot open file "C:\Users\zfppcx\AppData\Roaming\VMware\config.ini": Unknown error 2 (0x2).
+2015-08-19T09:27:46.524+02:00| vthread-4| I120: ----------------------------------------
+2015-08-19T09:27:46.524+02:00| vthread-4| I120: PREF Optional preferences file not found at C:\Users\zfppcx\AppData\Roaming\VMware\config.ini. Using default values.
+2015-08-19T09:27:46.525+02:00| vthread-4| I120: FILE: FileLockDynaLink: Further process validation tools are: available
+2015-08-19T09:27:46.532+02:00| vthread-4| I120: Started, process id = 3108
+2015-08-19T09:27:46.532+02:00| vthread-4| I120:          pipe = \\.\pipe\vmware.vprint.1060.41.0
+2015-08-19T09:27:46.532+02:00| vthread-4| I120:          mutex = Global\vmware.vprint-s.1060.18467.1
+2015-08-19T09:27:46.532+02:00| vthread-4| I120: Path for TPClnVM.dll = 'C:\Program Files (x86)\VMware\VMware Workstation\TPClnVM.dll'
+2015-08-19T09:27:46.537+02:00| vthread-4| I120: Loaded TPClnVM.dll as C:\Program Files (x86)\VMware\VMware Workstation\TPClnVM.dll
+2015-08-19T09:27:46.537+02:00| vthread-4| I120: Got entry/stop functions
+2015-08-19T09:27:46.537+02:00| vthread-4| I120: Calling TP 'entry' function
+2015-08-19T09:27:46.601+02:00| vthread-4| I120: Waiting for mutex "Global\vmware.vprint-s.1060.18467.1" ...
+2015-08-19T09:40:59.088+02:00| vthread-4| I120: Mutex signalled
+2015-08-19T09:40:59.088+02:00| vthread-4| I120: Calling TP 'stop' function
+2015-08-19T09:40:59.794+02:00| vthread-4| I120: Cleaned up OK
+2015-08-19T09:40:59.794+02:00| vthread-4| I120: Exit
