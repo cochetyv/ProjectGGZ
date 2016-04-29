@@ -1,5 +1,13 @@
 Liste test to do modifié par Lucas
 
 TROLOLOLOLOL
+<<<<<<< HEAD
 awsfckztws<gfdkiwSZSEGDIKwszfdcikWZTEFiwezdfoawezFOwuzegfoAUWEGFOAwzefgoaWEZGFOAWZEGFCOAEZRGFOUwezegfoZGEFOzuewgfoLEWZFGOwezfoLWEZGOezwfgOWEZFOEZFGo
 TRORLRLORORLEOTOODGOPOCG 2
+=======
+
+TRORLRLORORLEOTOODGOPOCG 2
+
+
+dfgghdfghdfghdfghdfghdfghfghdfghdfghfd
+>>>>>>> push
