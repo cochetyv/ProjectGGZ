@@ -10,3 +10,6 @@ Groupe feu de camps JDT :
 
 -Essais d'utilisation de GitKraken et GitHub (Cochet, Baltensperger, Da Silva)
 -Création du MLD (Naït)
+-Création du script de création de la BD (Da Silva)
+-Création fichiers CSV pour remplir la BD (Naït)
+-Réalisation de la documentation (Cochet, Baltensperger)
