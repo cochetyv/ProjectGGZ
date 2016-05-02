@@ -1,0 +1,113 @@
+html{
+	padding:10px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body{
+	margin:0 auto;
+	border:1px solid red;
+	width:1280px;
+	padding:10px;
+}
+
+header{
+	height:10%;
+	border:2px solid #333333;
+	border-radius:10px;
+	padding:5px;
+}
+
+footer{
+	height:15%;
+	border:2px solid #333333;
+	border-radius:10px;
+	margin-top:10px;
+	padding:5px;
+
+}
+
+nav{
+	height:5%;
+	border:2px solid #333333;
+	border-radius:10px;
+	margin-top:10px;
+	padding:5px;
+}
+
+button{
+	border:2px solid dodgerblue;
+	border-radius:20px;
+	padding:5px;
+	width:250px;
+	font-size:18px;
+	background-color:dodgerblue;
+	font-weight:bold;
+}
+
+button:focus{
+	outline:0;	
+}
+
+button:hover{
+	border:2px solid #07CC07;
+	background-color:#07CC07;
+}
+
+select{
+	border:2px solid #7D7D7D;
+	border-radius:10px;
+	padding:5px;
+	width:250px;
+	font-size:15px;
+}
+
+select:focus{
+	outline:0;
+    border:2px solid dodgerblue;	
+}
+
+input{
+	border:2px solid #7D7D7D;
+	border-radius:10px;
+	padding:5px;
+	width:250px;
+	font-size:15px;
+}
+
+input:focus{
+	outline:0;
+    border:2px solid dodgerblue;	
+}
+
+textarea{
+	border:2px solid #7D7D7D;
+	border-radius:10px;
+	padding:5px;
+	width:250px;
+	font-size:15px;
+	height:100px;
+}
+
+textarea:focus{
+	outline:0;
+    border:2px solid dodgerblue;	
+}
+
+
+.principal-content{
+	height:70%;
+	border:2px solid #333333;
+	border-radius:10px;
+	margin-top:10px;
+	padding:5px;
+}
+
+#date-hide{
+	display:none;
+	color:dodgerblue;
+	font-weight:bold;
+}
+
+#date:hover span{
+	display:inline;
+}

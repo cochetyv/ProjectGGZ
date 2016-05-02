@@ -13,3 +13,7 @@ Groupe feu de camps JDT :
 -Création du script de création de la BD (Da Silva)
 -Création fichiers CSV pour remplir la BD (Naït)
 -Réalisation de la documentation (Cochet, Baltensperger)
+
+02.05.2016 :
+
+-Création de la maquette du formulaire (Cochet)
