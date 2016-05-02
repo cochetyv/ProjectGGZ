@@ -106,14 +106,21 @@ textarea:focus{
 	padding:5px;
 }
 
-#date-hide{
-	display:none;
+.popup span{
 	color:dodgerblue;
-	font-weight:bold;
+	position:absolute;
+	margin-left:5px;
+	border-radius:3px;
+	padding:8px;
+	max-width: 400px;
+	background:rgba(250,250,250,.5);
+	box-shadow: 1px 1px 30px #555;
+	transform:scale(0) rotate(-25deg);
+	transition:0.25s;
 }
 
-#date:hover span{
-	display:inline;
+.popup:hover span{
+	transform:scale(1) rotate(0);  
 }
 
 #form-formation{
