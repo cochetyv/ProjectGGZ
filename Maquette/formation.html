@@ -18,18 +18,18 @@
 	</nav>
 
 	<div class="principal-content">
-		<h2>Formulaire</h2>
+		<h2>Formulaire ajout d'une formation</h2>
 		<from id="form-formation" method="post" action="#">
 			<input type="text" name="title" placeholder="Titre de la formation"/><br/><br/>
 			<textarea name="description" placeholder="Description de la formation"></textarea><br/><br/>
-			<span id="date"><input type="date" name="date" placeholder="Date de début"/><span id="date-hide">Date de début</span></span><br/><br/>
-			<input type="number" placeholder="Durée en heure" name="time"/><br/><br/>
-			<select id="formator">
+			<span class="popup"><input type="date" name="date" placeholder="Date de début"/><span>Date de début de la formation</span></span><br/><br/>
+			<span class="popup"><input type="number" placeholder="Durée en heure" name="time"/><span>Durée de la formation en nombre d'heure (Ex. : 40 )</span></span><br/><br/>
+			<span class="popup"><select id="formator">
 				<option value="GGZ">GGZ</option>
 				<option value="Formator2">Formator2</option>
 				<option value="Formator3">Formator3</option>
 				<option value="Formator4">Formator4</option>
-			</select><br/><br/>
+			</select><span>Nom du formateur</span></span><br/><br/>
 			<input type="number" placeholder="Nombre de séquences" name="nbSequences"/><br/><br/>
 			<button type="submit">Valider</button>
 		</from>
