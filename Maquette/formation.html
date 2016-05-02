@@ -1,0 +1,44 @@
+
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="css.css">
+  <script src="script.js"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="header-content">
+			<h1>Header</h1>
+		</div>
+	</header>
+
+	<nav>
+		NAVIGATION
+	</nav>
+
+	<div class="principal-content">
+		<h2>Formulaire</h2>
+		<from id="form-formation" method="post" action="#">
+			<input type="text" name="title" placeholder="Titre de la formation"/><br/><br/>
+			<textarea name="description" placeholder="Description de la formation"></textarea><br/><br/>
+			<span id="date"><input type="date" name="date" placeholder="Date de début"/><span id="date-hide">Date de début</span></span><br/><br/>
+			<input type="number" placeholder="Durée en heure" name="time"/><br/><br/>
+			<select id="formator">
+				<option value="GGZ">GGZ</option>
+				<option value="Formator2">Formator2</option>
+				<option value="Formator3">Formator3</option>
+				<option value="Formator4">Formator4</option>
+			</select><br/><br/>
+			<input type="number" placeholder="Nombre de séquences" name="nbSequences"/><br/><br/>
+			<button type="submit">Valider</button>
+		</from>
+	</div>
+
+	<footer class="footer">
+		<div class="footer-content">
+			FOOTER
+		</div>
+	</footer>
+</body>
+</html>
