@@ -1,0 +1,75 @@
+<!--
+Author : Yvan Cochet
+Date : 09.05.2016
+Description : form to add a teacher
+-->
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="../../resources/css/css.css">
+  <script src="script.js"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="header-content">
+			<h1>Header</h1>
+		</div>
+	</header>
+
+	<nav>
+		NAVIGATION
+	</nav>
+
+	<div class="principal-content">
+		<h2>Formulaire ajout d'un formateur</h2>
+		<form id="form-formation" method="post" action="#">
+		
+			<span class="popup">
+			<input type="text" name="title" placeholder="Nom"/><span>Exemple : Greudin</span></span><br/><br/>
+			
+			<span class="popup">
+			<input type="text" name="title" placeholder="Prénom"/><span>Exemple : Pierre</span></span><br/><br/>
+			
+			<span class="popup">
+			<input type="text" name="title" placeholder="Rue"/><span>Exemple : Rue de l'Industrie 12</span></span><br/><br/>
+			
+			<span class="popup">
+			<input type="text" name="title" placeholder="Code Postal"/><span>Exemple : 1030</span></span><br/><br/>
+			
+			<span class="popup">
+			<input type="text" name="title" placeholder="Localité"/><span>Exemple : Bussigny</span></span><br/><br/>
+			
+			<span class="popup">
+			<input type="text" name="title" placeholder="Email"/><span>Exemple : jeanmartin@jonquille.ch</span></span><br/><br/>
+			
+			<span class="popup">
+			<input type="text" name="title" placeholder="Numéro de téléphone"/><span>Exemple : 079 894 96 35</span></span><br/><br/>
+
+			
+			<span class="popup"><select id="formator">
+				<option value="">Veuillez selectionner</option>
+				<option value="Formator2">Architecte</option>
+				<option value="Formator2">Maçon</option>
+				<option value="Formator3">Peintre</option>
+				<option value="Formator4">Electricien</option>
+			</select><span>Nom du formateur</span></span><br/><br/>
+			
+			<span class="popup">
+			<textarea name="description" placeholder="Remarques"></textarea><span>Exemple : 2ème numéro de téléphone : 079 894 96 35</span></span><br/><br/>
+			
+			
+			<button type="submit">Valider</button>
+			
+			
+			
+		</form>
+	</div>
+
+	<footer class="footer">
+		<div class="footer-content">
+			FOOTER
+		</div>
+	</footer>
+</body>
+</html>
