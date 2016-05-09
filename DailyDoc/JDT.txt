@@ -17,3 +17,9 @@ Groupe feu de camps JDT :
 02.05.2016 :
 
 -Création de la maquette du formulaire (Cochet)
+
+09.05.2016 :
+-Création de l'arborescence du site web + dbAccess avec methode de base (Cochet)
+-Fin création du design des formulaire (Cochet)
+-Création du formulaire d'ajout de participants (Da Silva)
+-Création du formulaire d'inscription aux formations (en cours) (Da Silva)
