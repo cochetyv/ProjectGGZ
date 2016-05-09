@@ -1,0 +1,42 @@
+
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="css.css">
+  <script src="script.js"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="header-content">
+			<h1>Header</h1>
+		</div>
+	</header>
+
+	<nav>
+		NAVIGATION
+	</nav>
+
+	<div class="principal-content">
+		<h2>Formulaire ajout d'un participant</h2>
+		<form id="form-formation" method="post" action="#">
+			<span class="popup"><input type="text" name="useLastName" placeholder="Nom"/><span>Nom</span></span><br/><br/>                   
+			<span class="popup"><input type="text" name="useFirstName" placeholder="Prénom"/><span>Prénom</span></span><br/><br/>
+			<span class="popup"><input type="text" name="useNPA" placeholder="Code postal"/><span>Code Postal</span></span><br/><br/> 
+			<span class="popup"><input type="text" name="useCity" placeholder="Ville"/><span>Ville</span></span><br/><br/> 
+			<span class="popup"><input type="text" name="useAddress" placeholder="Adresse complète"/><span>Adresse complète</span></span><br/><br/>       
+			<span class="popup"><input type="email" name="useEmail" placeholder="Adresse email"/><span>Adresse email (ex: toto@info.ch)</span></span><br/><br/>          
+			<span class="popup"><input type="text" name="usePhoneNumber" placeholder="Numéro de téléphone"/><span>Numéro de téléphone (ex: 079 402 56 30)</span></span><br/><br/>
+			<span class="popup"><input type="text" name="useAVSNumber" placeholder="Numéro d'AVS"/><span>Numéro d'AVS (ex: 123.4567.8912.34)</span></span><br/><br/>      
+			<span class="popup"><textarea name="useRemarks" placeholder="Remarques"></textarea><span>Remarques (si numéro de tél. supplémentaire par exemple)</span></span><br/><br/>
+			<button type="submit">Valider</button>                                                                    
+		</form>
+	</div>
+
+	<footer class="footer">
+		<div class="footer-content">
+			FOOTER
+		</div>
+	</footer>
+</body>
+</html>
