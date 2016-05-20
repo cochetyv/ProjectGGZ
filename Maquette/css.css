@@ -18,7 +18,7 @@ h2{
 }
 
 
-}
+
 
 header{
 	height:10%;
@@ -74,10 +74,10 @@ select:focus{
 }
 
 input{
-	border:2px solid #7D7D7D;
-	padding:5px;
-	width:350px;
-	font-size:15px;
+    border:2px solid #7D7D7D;
+    padding:5px;
+    width:350px;
+    font-size:15px;
 }
 
 input:focus{
@@ -104,6 +104,18 @@ textarea:focus{
 	border-radius:10px;
 	margin-top:10px;
 	padding:5px;
+}
+
+.checkBox{
+    margin:10px;
+    font-size:28px;
+    font-weight:bolder;
+    width:auto;
+}
+
+.checkBoxAlign{
+    font-size:20px;
+    font-weight:bold;
 }
 
 .popup span{
