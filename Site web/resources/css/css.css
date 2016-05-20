@@ -119,6 +119,14 @@ textarea:focus{
 	transition:0.25s;
 }
 
+.checkBox{
+    margin:10px;
+    font-size:28px;
+    font-weight:bolder;
+    width:auto;
+}
+
+
 .popup:hover span{
 	transform:scale(1) rotate(0);  
 }
