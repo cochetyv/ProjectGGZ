@@ -4,43 +4,85 @@ Date : 09.05.2016
 Description : form to add a student
 -->
 <html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Formulaire d'ajout d'un participant</title>
-  <link rel="stylesheet" href="../../resources/css/css.css">
-  <script src="script.js"></script>
-</head>
-<body>
-	<header class="header">
-		<div class="header-content">
-			<h1>Header</h1>
+
+	<head>
+	  <meta charset="utf-8">
+	  <title>Ajout d'un participant</title>
+	  <link rel="stylesheet" href="../../resources/css/css.css">
+	  <script src="script.js"></script>
+	</head>
+	
+	<body>
+	
+		<header class="header">
+			<div class="header-content">
+				<h1>Header</h1>
+			</div>
+		</header>
+
+		<!-- Navigation menu-->
+		<nav>
+			<div class="nav-bar">
+				<a class="nav-bar-link activ" href="./formateur.html">Ajout formateur</a>
+				<span> | </span>
+				<a class="nav-bar-link" href="./participants.html">Ajout participant</a>
+				<span> | </span>
+				<a class="nav-bar-link" href="./formation.html">Ajout formation</a>
+			</div>
+		</nav>
+		<!--END Navigation menu-->
+
+		<!--Principal content-->
+		<div class="principal-content">
+		
+			<h2>Formulaire ajout d'un participant</h2>
+			
+			<!--Form to add a student-->
+			<form id="form-formation" method="post" action="#">
+			
+				<!--Firstname of the student-->
+				<span class="popup"><input type="text" name="firstname" placeholder="Nom"/><span>Exemple : Greudin</span></span><br/><br/>
+
+				<!--Lastname of the student-->				
+				<span class="popup"><input type="text" name="lastname" placeholder="Prénom"/><span>Exemple : Pierre</span></span><br/><br/>
+				
+				<!--ZipCode-->
+				<span class="popup"><input type="text" name="zipcode" placeholder="Code postal"/><span>Exemple : 1030</span></span><br/><br/> 
+				
+				<!--City-->
+				<span class="popup"><input type="text" name="city" placeholder="Ville"/><span>Exemple : Bussigny</span></span><br/><br/> 
+				
+				<!--Street-->
+				<span class="popup"><input type="text" name="street" placeholder="Rue"/><span>Exemple : Rue de l'Industrie 12</span></span><br/><br/>     
+
+				<!--Mail-->
+				<span class="popup"><input type="email" name="mail" placeholder="Adresse email"/><span>Adresse email (ex: toto@info.ch)</span></span><br/><br/>  
+
+				<!--Phone number-->
+				<span class="popup"><input type="text" name="phone" placeholder="Numéro de téléphone"/><span>Numéro de téléphone (ex: 079 402 56 30)</span></span><br/><br/>
+				
+				<!--AVS number-->
+				<span class="popup"><input type="text" name="avsNumber" placeholder="Numéro d'AVS"/><span>Numéro d'AVS (ex: 123.4567.8912.34)</span></span><br/><br/>      
+				
+				<!--Exrta-->
+				<span class="popup"><textarea name="extra" placeholder="Remarques"></textarea><span>Remarques (si numéro de tél. supplémentaire par exemple)</span></span><br/><br/>
+				
+				<!--Submit button-->
+				<button type="submit">Valider</button>        
+				
+			</form>
+			<!--END Form to add a student-->
+			
 		</div>
-	</header>
+		<!--END Principal content-->
 
-	<nav>
-		NAVIGATION
-	</nav>
-
-	<div class="principal-content">
-		<h2>Formulaire ajout d'un participant</h2>
-		<form id="form-formation" method="post" action="#">
-			<span class="popup"><input type="text" name="useLastName" placeholder="Nom"/><span>Nom</span></span><br/><br/>                   
-			<span class="popup"><input type="text" name="useFirstName" placeholder="Prénom"/><span>Prénom</span></span><br/><br/>
-			<span class="popup"><input type="text" name="useNPA" placeholder="Code postal"/><span>Code Postal</span></span><br/><br/> 
-			<span class="popup"><input type="text" name="useCity" placeholder="Ville"/><span>Ville</span></span><br/><br/> 
-			<span class="popup"><input type="text" name="useAddress" placeholder="Rue"/><span>Rue</span></span><br/><br/>       
-			<span class="popup"><input type="email" name="useEmail" placeholder="Adresse email"/><span>Adresse email (ex: toto@info.ch)</span></span><br/><br/>          
-			<span class="popup"><input type="text" name="usePhoneNumber" placeholder="Numéro de téléphone"/><span>Numéro de téléphone (ex: 079 402 56 30)</span></span><br/><br/>
-			<span class="popup"><input type="text" name="useAVSNumber" placeholder="Numéro d'AVS"/><span>Numéro d'AVS (ex: 123.4567.8912.34)</span></span><br/><br/>      
-			<span class="popup"><textarea name="useRemarks" placeholder="Remarques"></textarea><span>Remarques (si numéro de tél. supplémentaire par exemple)</span></span><br/><br/>
-			<button type="submit">Valider</button>                                                                    
-		</form>
-	</div>
-
-	<footer class="footer">
-		<div class="footer-content">
-			FOOTER
-		</div>
-	</footer>
-</body>
+		<!--Footer-->
+		<footer class="footer">
+			<div class="footer-content">
+				FOOTER
+			</div>
+		</footer>
+		<!--END Footer-->
+		
+	</body>
 </html>

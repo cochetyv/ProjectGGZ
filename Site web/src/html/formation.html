@@ -4,46 +4,82 @@ Date : 09.05.2016
 Description : form to add a formation
 -->
 <html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Ajout d'une formation</title>
-  <link rel="stylesheet" href="../../resources/css/css.css">
-  <script src="script.js"></script>
-</head>
-<body>
-	<header class="header">
-		<div class="header-content">
-			<h1>Header</h1>
+
+	<head>
+	  <meta charset="utf-8">
+	  <title>Ajout d'une formation</title>
+	  <link rel="stylesheet" href="../../resources/css/css.css">
+	  <script src="script.js"></script>
+	</head>
+	
+	<body>
+	
+		<header class="header">
+			<div class="header-content">
+				<h1>Header</h1>
+			</div>
+		</header>
+
+		<!--Navigation menu-->
+		<nav>
+			<div class="nav-bar">
+				<a class="nav-bar-link activ" href="./formateur.html">Ajout formateur</a>
+				<span> | </span>
+				<a class="nav-bar-link" href="./participants.html">Ajout participant</a>
+				<span> | </span>
+				<a class="nav-bar-link" href="./formation.html">Ajout formation</a>
+			</div>
+		</nav>
+		<!--END Navigation menu-->
+
+		<!--Principal content-->
+		<div class="principal-content">
+		
+			<h2>Formulaire ajout d'une formation</h2>
+			
+			<!--Form to add a formation-->
+			<form id="form-formation" method="post" action="#">
+			
+				<!--Title of the formation-->
+				<span class="popup"><input type="text" name="title" placeholder="Titre (+ groupe d'élèves)"/><span>Titre de la formation (Ex : 001P_GestProj GRP2B)</span></span><br/><br/>
+				
+				<!--Description of the formation-->
+				<span class="popup"><textarea name="description" placeholder="Description"></textarea><span>Description du but de la formation</span></span><br/><br/>
+				
+				<!--Starting date of the formation-->
+				<span class="popup"><input type="date" name="date" placeholder="Date de début"/><span>Date de début de la formation (Ex. : 15.05.2016)</span></span><br/><br/>
+				
+				<!--Duration of the formation-->
+				<span class="popup"><input type="number" placeholder="Durée en heure" name="time"/><span>Durée de la formation en nombre d'heure (Ex. : 40 )</span></span><br/><br/>
+				
+				<!--Teacher of the formation-->
+				<span class="popup"><select id="formator">
+					<option value="GGZ">Veuillez selectionner</option>
+					<option value="GGZ">GGZ</option>
+					<option value="Formator2">Formator2</option>
+					<option value="Formator3">Formator3</option>
+					<option value="Formator4">Formator4</option>
+				</select><span>Nom du formateur</span></span><br/><br/>
+				
+				<!--Nb Sequences of the formation-->
+				<span class="popup"><input type="number" placeholder="Nombre de séquences" name="nbSequences"/><span>Nombre de séquences pour la formation (Ex. : 2)</span></span><br/><br/>
+				
+				<!--Submit button-->
+				<button type="submit">Valider</button>
+				
+			</form>
+			<!--END form to add a formation-->
+			
 		</div>
-	</header>
+		<!--END Principal content-->
 
-	<nav>
-		NAVIGATION
-	</nav>
-
-	<div class="principal-content">
-		<h2>Formulaire ajout d'une formation</h2>
-		<form id="form-formation" method="post" action="#">
-			<span class="popup"><input type="text" name="title" placeholder="Titre (+ groupe d'élèves)"/><span>Titre de la formation (Ex : 001P_GestProj GRP2B)</span></span><br/><br/>
-			<span class="popup"><textarea name="description" placeholder="Description"></textarea><span>Description du but de la formation</span></span><br/><br/>
-			<span class="popup"><input type="date" name="date" placeholder="Date de début"/><span>Date de début de la formation (Ex. : 15.05.2016)</span></span><br/><br/>
-			<span class="popup"><input type="number" placeholder="Durée en heure" name="time"/><span>Durée de la formation en nombre d'heure (Ex. : 40 )</span></span><br/><br/>
-			<span class="popup"><select id="formator">
-				<option value="GGZ">Veuillez selectionner</option>
-				<option value="GGZ">GGZ</option>
-				<option value="Formator2">Formator2</option>
-				<option value="Formator3">Formator3</option>
-				<option value="Formator4">Formator4</option>
-			</select><span>Nom du formateur</span></span><br/><br/>
-			<span class="popup"><input type="number" placeholder="Nombre de séquences" name="nbSequences"/><span>Nombre de séquences pour la formation (Ex. : 2)</span></span><br/><br/>
-			<button type="submit">Valider</button>
-		</form>
-	</div>
-
-	<footer class="footer">
-		<div class="footer-content">
-			FOOTER
-		</div>
-	</footer>
-</body>
+		<!--Footer-->
+		<footer class="footer">
+			<div class="footer-content">
+				FOOTER
+			</div>
+		</footer>
+		<!--END Footer-->
+		
+	</body>
 </html>

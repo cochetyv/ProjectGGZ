@@ -4,89 +4,98 @@ Date : 09.05.2016
 Description : form to add a teacher
 -->
 <html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Titre de la page</title>
-  <link rel="stylesheet" href="../../resources/css/css.css">
-  <script src="script.js"></script>
-</head>
-<body>
-	<header class="header">
-		<div class="header-content">
-			<h1>Header</h1>
-		</div>
-	</header>
 
-	<!-- Navigation menu-->
-	<nav>
-		NAVIGATION
-	</nav>
-	<!--END Navigation menu-->
-
-	<!--Principal content-->
-	<div class="principal-content">
+	<head>
+	  <meta charset="utf-8">
+	  <title>Ajout d'un formateur</title>
+	  <link rel="stylesheet" href="../../resources/css/css.css">
+	  <script src="script.js"></script>
+	</head>
 	
-		<h2>Formulaire ajout d'un formateur</h2>
-		
-		<!--Form to add a teacher-->
-		<form id="form-formation" method="post" action="#">
-		
-			<!--Name of the teacher-->
-			<span class="popup">
-			<input type="text" name="firstname" placeholder="Nom"/><span>Exemple : Greudin</span></span><br/><br/>
-			
-			<!--Surname of the teacher-->
-			<span class="popup">
-			<input type="text" name="surname" placeholder="Prénom"/><span>Exemple : Pierre</span></span><br/><br/>
-			
-			<!--Street of the teacher-->
-			<span class="popup">
-			<input type="text" name="street" placeholder="Rue"/><span>Exemple : Rue de l'Industrie 12</span></span><br/><br/>
-			
-			<!--ZipCode of the teacher-->
-			<span class="popup">
-			<input type="text" name="zipcode" placeholder="Code Postal"/><span>Exemple : 1030</span></span><br/><br/>
-			
-			<!--City of the teacher-->
-			<span class="popup">
-			<input type="text" name="city" placeholder="Localité"/><span>Exemple : Bussigny</span></span><br/><br/>
-			
-			<!--mail of the teacher-->
-			<span class="popup">
-			<input type="text" name="mail" placeholder="Email"/><span>Exemple : jeanmartin@jonquille.ch</span></span><br/><br/>
-			
-			<!--PhoneNumbwe of the teacher-->
-			<span class="popup">
-			<input type="text" name="phone" placeholder="Numéro de téléphone"/><span>Exemple : 079 894 96 35</span></span><br/><br/>
+	<body>
+	
+		<header class="header">
+			<div class="header-content">
+				<h1>Header</h1>
+			</div>
+		</header>
 
-			
-			<!--Job of the teacher-->
-			<span class="popup"><select name="job" id="formator">
-				<option value="">Veuillez selectionner</option>
-				<option value="Formator2">Architecte</option>
-				<option value="Formator2">Maçon</option>
-				<option value="Formator3">Peintre</option>
-				<option value="Formator4">Electricien</option>
-			</select><span>Profession</span></span><br/><br/>
-			
-			<!--Extra-->
-			<span class="popup">
-			<textarea name="Extra" placeholder="Remarques"></textarea><span>Exemple : 2ème numéro de téléphone : 079 894 96 35</span></span><br/><br/>
-			
-			<!--Submit button-->
-			<button type="submit">Valider</button>
-			
-		</form>
-		<!--END Form to add a teacher-->
-	</div>
-	<!--END Principal content-->
+		<!-- Navigation menu-->
+		<nav>
+			<div class="nav-bar">
+				<a class="nav-bar-link activ" href="./formateur.html">Ajout formateur</a>
+				<span> | </span>
+				<a class="nav-bar-link" href="./participants.html">Ajout participant</a>
+				<span> | </span>
+				<a class="nav-bar-link" href="./formation.html">Ajout formation</a>
+			</div>
+		</nav>
+		<!--END Navigation menu-->
 
-	<!--Footer-->
-	<footer class="footer">
-		<div class="footer-content">
-			FOOTER
+		<!--Principal content-->
+		<div class="principal-content">
+		
+			<h2>Formulaire ajout d'un formateur</h2>
+			
+			<!--Form to add a teacher-->
+			<form id="form-formation" method="post" action="#">
+			
+				<!--Name of the teacher-->
+				<span class="popup">
+				<input type="text" name="firstname" placeholder="Nom"/><span>Exemple : Greudin</span></span><br/><br/>
+				
+				<!--Surname of the teacher-->
+				<span class="popup">
+				<input type="text" name="surname" placeholder="Prénom"/><span>Exemple : Pierre</span></span><br/><br/>
+				
+				<!--Street of the teacher-->
+				<span class="popup">
+				<input type="text" name="street" placeholder="Rue"/><span>Exemple : Rue de l'Industrie 12</span></span><br/><br/>
+				
+				<!--ZipCode of the teacher-->
+				<span class="popup">
+				<input type="text" name="zipcode" placeholder="Code Postal"/><span>Exemple : 1030</span></span><br/><br/>
+				
+				<!--City of the teacher-->
+				<span class="popup">
+				<input type="text" name="city" placeholder="Localité"/><span>Exemple : Bussigny</span></span><br/><br/>
+				
+				<!--mail of the teacher-->
+				<span class="popup">
+				<input type="text" name="mail" placeholder="Email"/><span>Exemple : jeanmartin@jonquille.ch</span></span><br/><br/>
+				
+				<!--PhoneNumbwe of the teacher-->
+				<span class="popup">
+				<input type="text" name="phone" placeholder="Numéro de téléphone"/><span>Exemple : 079 894 96 35</span></span><br/><br/>
+
+				
+				<!--Job of the teacher-->
+				<span class="popup"><select name="job" id="formator">
+					<option value="">Veuillez selectionner</option>
+					<option value="Formator2">Architecte</option>
+					<option value="Formator2">Maçon</option>
+					<option value="Formator3">Peintre</option>
+					<option value="Formator4">Electricien</option>
+				</select><span>Profession</span></span><br/><br/>
+				
+				<!--Extra-->
+				<span class="popup">
+				<textarea name="extra" placeholder="Remarques"></textarea><span>Exemple : 2ème numéro de téléphone : 079 894 96 35</span></span><br/><br/>
+				
+				<!--Submit button-->
+				<button type="submit">Valider</button>
+				
+			</form>
+			<!--END Form to add a teacher-->
 		</div>
-	</footer>
-	<!--END Footer-->
-</body>
+		<!--END Principal content-->
+
+		<!--Footer-->
+		<footer class="footer">
+			<div class="footer-content">
+				FOOTER
+			</div>
+		</footer>
+		<!--END Footer-->
+	</body>
 </html>

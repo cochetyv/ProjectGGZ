@@ -123,6 +123,24 @@ textarea:focus{
 	transform:scale(1) rotate(0);  
 }
 
+.nav-bar{
+	text-align:center;
+	padding:10px;
+	color:dodgerblue;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.nav-bar-link{
+	text-decoration:none;
+	color:dodgerblue;
+	margin:10px;
+}
+
+.nav-bar-link:hover{
+	color:#00478C;
+}
+
 #form-formation{
 	margin-left:458px;
 	display:block;
