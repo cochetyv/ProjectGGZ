@@ -20,6 +20,10 @@ SET time_zone = "+00:00";
 -- Base de données :  `db_school`
 --
 
+CREATE DATABASE IF NOT EXISTS `db_school`;
+
+USE `db_school`;
+
 -- --------------------------------------------------------
 
 --
@@ -115,7 +119,7 @@ CREATE TABLE IF NOT EXISTS `t_satisfaction` (
 INSERT INTO `t_satisfaction` (`idSatisfaction`, `satNote`, `satComment`, `fkFormation`, `fkStudent`) VALUES
 (1, '4', 'Super Cours', 1, 4),
 (2, '3', 'Super cours, vraiment super !', 2, 3),
-(3, '1', 'Ce cours est nul et trés casse tête', 3, 12);
+(3, '1', 'Ce cours est nul et très casse tête', 3, 12);
 
 -- --------------------------------------------------------
 
