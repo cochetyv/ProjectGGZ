@@ -23,3 +23,6 @@ Groupe feu de camps JDT :
 -Fin création du design des formulaire (Cochet)
 -Création du formulaire d'ajout de participants (Da Silva)
 -Création du formulaire d'inscription aux formations (en cours) (Da Silva)
+
+20.05.2016 :
+-Mise en place des commentaires dans le code PHP et HTML (Cochet)
